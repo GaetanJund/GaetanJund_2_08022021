@@ -3,20 +3,241 @@
 @font-face{
     font-family: Raleway;
     src: url(polices/Raleway-VariableFont_wght.ttf) format('truetype');
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet"> 
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Principal */
 
 body{
-   
+   font-family: 'Raleway', sans-serif;
 }
 
 #bloc_page{
     margin: auto;
 }
 
-section h1{
-    font-family: 'Raleway', sans-serif;
+h1{
+    margin: 5 5 5 50px;
+    font-size: 1.2em;
+}
+
+p{
+    font-size: 0.75em;
+}
+
+@media all and (max-width: 1024px){
+    #bloc_page{
+        width: auto;
+    }
+}
+
+@media all and (max-width: 1024px){
+    nav{
+        width: auto;
+        text-align: left;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav li{
+        padding-left: 4px;
+    }
+    nav a{
+        font-size: 0.8em;
+    }
+    nav a:hover{
+        border-bottom: 0;
+    }
+}
+
+@media all and (max-width: 1024px){
+    section{
+        flex-direction: column;
+    }
+    article, aside{
+        width: auto;
+        margin-bottom: 15px;
+    }
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#Titre{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo img{
+    width: 80px;
+    height: 40px;
+}
+
+/* Navigation */
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li{
+    margin-right: 30px;
+}
+
+nav a{
+    color: black;
+    font-size: 0.8em;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #0065fc;
+    border-top: 1.5px solid #0065fc;
+}
+
+/* Bannière */
+
+#banniere_texte{
+    padding-bottom: 0px;
+    position: relative;
+    font-size: 1em;
+    border-radius: 0px 0px 5px 5px;
+    width: 0%;
+}
+
+#marecherche{
+    border: 0.5px solid #f2f2f2;
+    height: 35px;
+    width: 200px;
+}
+
+#icon_info{
+    background-color: #f2f2f2;
+    float: left;
+    text-align: center;
+    height: 35px;
+    width: 30px;
+    border-radius: 5px 0px 0px 5px;
+    max
+}
+
+i{
+    font-size: 1;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#bouton{
+    font-family: 'Raleway', 'sans-serif';
+    background-color: #0065fc;
+    color: white;
+    height: 35px;
+    width: 100px;    
+    border-top-right-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+}
+
+#filtres i{
+    display: flex;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#filtres_logo{
+    list-style-type: none;
+    display: flexbox;
+    color: #0065fc;
+    background-color: #deebff;  
+    box-sizing: 100px;  
+}
+
+
+#info{
+    display: flex;
+}
+
+/* Corps */
+
+section{
+    font-family: 'Raleway' 'sans-serif';
+    display: flex;
+    margin-bottom: 15px;
+}
+
+article{
+    display: flexbox;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 30px 30px;
+    margin-bottom: 50px;
+    box-sizing: 300px; 
+    width: 70%;
+}
+
+aside{
+    display: flexbox;
+    flex: 1.2;
+    position: relative;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 30px 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+    box-sizing: 100px;
+    width: 30%; 
+}
+
+section h2, aside h2{
+    font-size: 0.9em;
+}
+
+article p, aside p{
+    font-size: 0.75em;
+}
+
+#etoiles{
+    color: #0065fc;
+    font-size: 0.6em;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    background-color: #f2f2f2;
+    padding-top: 25px;
+}
+
+footer ul, footer h2{
+    font-size: 1.1em;
+}
+
+footer p{
+    text-align: left;
+    font-size: 0.9em;
+    margin: 1 1 1 10px;
+}
+
+#a_propos{
+    width: 35%;
+    }
+
+#hébergements{
+    width: 35%;
+}
+
+#assistance{
+    width: 35%;
 }
