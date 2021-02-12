@@ -59,6 +59,11 @@ p{
         width: auto;
         margin-bottom: 15px;
     }
+    #hebergements img{
+        width: 110px;
+        float: left;
+        margin-left: 15px;
+    }
 }
 
 /* Header */
@@ -145,8 +150,8 @@ nav a:hover{
 
 #filtres{
     display: flex;
-    justify-content: space-evenly;
-    padding: 15px 15px 15px 15px;
+    justify-content: space-between;
+    padding: 5px 0px 0px 0px;
     margin: 2px 2px 2px 2px;
     font-size: 0.7;
 }
@@ -168,6 +173,8 @@ nav a:hover{
     height: 24px;
     border: 2px solid #f2f2f2;
     border-radius: 15px 15px 15px 15px;
+    margin-right: 150px;
+    margin-top: 5px;
 }
 
 #filtres_logo:hover{
@@ -202,8 +209,7 @@ nav a:hover{
 
 #info{
     display: flex;
-    padding: 0px 0px 0px 8px;
-    justify-content: start;
+    padding: 8px 0px 0px 8px;
 }
 
 .fa-info{
@@ -242,10 +248,16 @@ aside{
     text-align: center;
     background-color: #f2f2f2;
     border-radius: 30px 30px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 25px;
+    margin-left: 20px;
     margin-bottom: 50px;
-    box-sizing: 100px;
     width: 30%; 
+}
+
+aside a{
+    text-decoration: none;
+    color: black;
 }
 
 section h2, aside h2{
@@ -268,7 +280,18 @@ article p, aside p{
     border-radius: 30px 30px;
     margin-bottom: 50px;
     box-sizing: 300px; 
-    width: 70%;
+    width: 75%;
+}
+
+#hebergements h1{
+    text-align: left;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+#hebergements a{
+    text-decoration: none;
+    color: black;
 }
 
 #hebergements1, #hebergements2{
@@ -276,25 +299,18 @@ article p, aside p{
     justify-content: space-around;
     text-align: left;
     flex-direction: row;
+    margin-left: -25px;
 }
 
-#etoiles{
+#etoiles_hebergements{
     color: #0065fc;
     font-size: 0.5em;
     padding-left: 10px;
     padding-bottom: 10px;
 }
 
-#afficher_plus{
-    text-align: start;
-    padding-left: 75px;
-    margin-top: 50px;
-}
-
 #hebergements3{
     justify-content: space-between;
-    text-align: left;
-    flex-direction: row;
 }
 
 #cannebière{
@@ -310,10 +326,205 @@ article p, aside p{
     border-radius: 10px 10px 0px 0px;
 }
 
+#hotel_port{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#hotel_port img{
+    height: 80px;
+    width: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#mouettes{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#mouettes img{
+    height: 80px;
+    width: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#hotel_mer{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 15px;
+}
+
+#hotel_mer img{
+    height: 80px;
+    width: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#panier{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 15px;
+}
+
+#panier img{
+    height: 80px;
+    width: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#amina{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 15px;
+}
+
+#amina img{
+    height: 80px;
+    width: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#afficher_plus{
+    text-align: left;
+    padding-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#populaires{
+    display: flex;
+}
+
+.fa-chart-line{
+    padding-top: 23px;
+    padding-left: 50px;
+}
+
+#soleil{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: -15px;
+    margin-right: 20px;
+}
+
+#image_soleil{
+    text-align: left;
+    margin-bottom: 10px;  
+}
+
+#texte_soleil{
+    margin-top: -85px;
+    padding-left: 100px;
+}
+
+#texte_soleil h2{
+    text-align: left;
+}
+
+#texte_soleil p{
+    margin-top: -10px;
+    text-align: left;
+}
+
+#soleil img{ 
+    height: 80px;
+    width: 100px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#coeur_eau{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+#image_coeureau{
+    text-align: left;
+    margin-bottom: 10px;  
+}
+
+#texte_coeureau{
+    margin-top: -85px;
+    padding-left: 100px;
+}
+
+#texte_coeureau h2{
+    text-align: left;
+}
+
+#texte_coeureau p{
+    margin-top: -10px;
+    text-align: left;
+}
+
+#coeur_eau img{ 
+    height: 80px;
+    width: 100px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#tout_bleu{
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+#image_toutbleu{
+    text-align: left;
+    margin-bottom: 10px;  
+}
+
+#texte_toutbleu{
+    margin-top: -85px;
+    padding-left: 100px;
+}
+
+#texte_toutbleu h2{
+    text-align: left;
+}
+
+#texte_toutbleu p{
+    margin-top: -10px;
+    text-align: left;
+}
+
+#tout_bleu img{ 
+    height: 80px;
+    width: 100px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#etoiles_populaires{
+    color: #0065fc;
+    font-size: 0.5em;
+    padding-bottom: 0px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
 /* Activités */
 
 #activites{
-    display: flexbox;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -333,8 +544,7 @@ article p, aside p{
 footer{
     display: flex;
     background-color: #f2f2f2;
-    padding-top: 25px;
-    padding-left: 25px;
+    padding: 25px 25px 25px 25px;
 }
 
 footer ul, footer h2{
