@@ -38,7 +38,7 @@ p{
         text-align: left;
     }
     nav ul{
-        flex-direction: column;
+        flex-direction: row;
     }
     nav li{
         padding-left: 4px;
@@ -53,14 +53,23 @@ p{
 
 @media all and (max-width: 1024px){
     section{
-        flex-direction: column;
+        flex-direction: row;
     }
     article, aside{
         width: auto;
+        height: auto;
         margin-bottom: 15px;
+        flex-direction: row;
+        float: none;
+    }
+    #banniere, #filtres, #info{
+        width: auto;
+        height: auto;
+        flex-direction: row;
     }
     #hebergements img{
-        width: 110px;
+        width: auto;
+        height: auto;
         float: left;
         margin-left: 15px;
     }
@@ -236,7 +245,7 @@ nav a:hover{
 /* Corps */
 
 section{
-    font-family: 'Raleway' 'sans-serif';
+    font-family: 'Raleway', 'sans-serif';
     display: flex;
     margin-bottom: 15px;
 }
@@ -525,19 +534,101 @@ article p, aside p{
 
 #activites{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 25px;
 }
 
 #activites1{
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    padding-left: 50px;
-    width: 100%;
-    border: 1px solid #f2f2f2;
-    border-radius: 0px 0px 5px 5px;
+    display: flexbox;
+    margin-right: 25px;
 }
 
+#activites2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+#vieux_port{
+    text-align: justify;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#vieux_port img{
+    border-radius: 7px 7px 0px 0px;
+    width: 300px;
+    height: 350px;
+}
+
+#fort_pomègues{
+    text-align: justify;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px 10px 10px 10px;
+    width: 270px;
+    height: 190px;
+}
+
+#fort_pomègues img{
+    border-radius: 7px 7px 0px 0px;
+    width: 270px;
+    height: 150px;
+    clip: rect(0,100px,50px,0);
+}
+
+#iles_frioul{
+    text-align: justify;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px 10px 10px 10px;
+    width: 270px;
+    height: 190px;
+}
+
+#iles_frioul img{
+    border-radius: 7px 7px 0px 0px;
+    width: 270px;
+    height: 150px;
+}
+
+#calanques{
+    text-align: justify;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#calanques img{
+    border-radius: 7px 7px 0px 0px;
+    width: 300px;
+    height: 350px;
+}
+
+#dame_garde{
+    text-align: justify;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px 10px 10px 10px;
+    width: 270px;
+    height: 190px;
+}
+
+#dame_garde img{
+    border-radius: 7px 7px 0px 0px;
+    width: 270px;
+    height: 150px;
+}
+
+#longchamp{
+    text-align: justify;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px 10px 10px 10px;
+    width: 270px;
+    height: 190px;
+}
+
+#longchamp img{
+    border-radius: 7px 7px 0px 0px;
+    width: 270px;
+    height: 150px;
+}
 
 /* Footer */
 
