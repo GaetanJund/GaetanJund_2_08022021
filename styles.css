@@ -125,6 +125,7 @@ nav a:hover{
     border-style: none;
     color: white;
     cursor: pointer;
+    font-size: 0.8em;
     height: 35px;
     width: 100px;    
     border-radius: 0px 10px 10px 0px;
@@ -195,7 +196,7 @@ nav a:hover{
 
 #info{
     display: flex;
-    padding: 8px 0px 0px 8px;
+    padding-top: 8px;
 }
 
 .fa-info{
@@ -274,7 +275,6 @@ section p{
     justify-content: space-around;
     text-align: left;
     flex-direction: row;
-    margin-left: px;
 }
 
 #etoiles_hebergements{
@@ -300,10 +300,11 @@ section p{
     height: 100px;
     width: 225px;
     border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
 }
 
 #cannebière p{
-    margin-top: -10px;
+    margin-top: -8px;
 }
 
 #hotel_port{
@@ -317,10 +318,11 @@ section p{
     height: 100px;
     width: 225px;
     border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
 }
 
 #hotel_port p{
-    margin-top: -10px;
+    margin-top: -8px;
 }
 
 #mouettes{
@@ -334,10 +336,11 @@ section p{
     height: 100px;
     width: 225px;
     border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
 }
 
 #mouettes p{
-    margin-top: -10px;
+    margin-top: -8px;
 }
 
 #hotel_mer{
@@ -352,10 +355,11 @@ section p{
     height: 100px;
     width: 225px;
     border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
 }
 
 #hotel_mer p{
-    margin-top: -10px;
+    margin-top: -8px;
 }
 
 #panier{
@@ -370,10 +374,11 @@ section p{
     height: 100px;
     width: 225px;
     border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
 }
 
 #texte_panier p{
-    margin-top: -10px;
+    margin-top: -8px;
 }
 
 #amina{
@@ -388,10 +393,11 @@ section p{
     height: 100px;
     width: 225px;
     border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
 }
 
 #amina p{
-    margin-top: -10px;
+    margin-top: -8px;
 }
 
 #afficher_plus{
@@ -407,13 +413,13 @@ section p{
     background-color: #f2f2f2;
     border-radius: 30px 30px;
     margin-bottom: 25px;
-    margin-left: 10px;
-    width: 110%;
+    margin-left: 25px;
+    width: 105%;
     height: 100%;
 }
 
 .fa-chart-line{
-    padding-left: 300px;
+    margin-left: 265px;
 }
 
 #soleil{
@@ -424,7 +430,7 @@ section p{
     margin-top: 10px;
     margin-right: 20px;
     margin-left: 20px;
-    padding-bottom: 3px;
+    height: 100px;
 }
 
 #image_soleil{
@@ -432,8 +438,8 @@ section p{
 }
 
 #texte_soleil{
-    margin-top: -85px;
-    padding-left: 100px;
+    margin-top: -100px;
+    padding-left: 70px;
 }
 
 #texte_soleil h2{
@@ -442,15 +448,16 @@ section p{
 }
 
 #texte_soleil p{
-    margin-top: -10px;
+    margin-top: -8px;
     padding-left: 35px;
     text-align: left;
 }
 
 #soleil img{ 
     height: 100px;
-    width: 125px;
+    width: 90px;
     border-radius: 10px 0px 0px 10px;
+    object-fit: cover;
 }
 
 #coeur_eau{
@@ -461,7 +468,7 @@ section p{
     margin-top: 25px;
     margin-right: 20px;
     margin-left: 20px;
-    padding-bottom: 3px;
+    height: 100px;
 }
 
 #image_coeureau{
@@ -469,8 +476,8 @@ section p{
 }
 
 #texte_coeureau{
-    margin-top: -85px;
-    padding-left: 100px;
+    margin-top: -100px;
+    padding-left: 70px;
 }
 
 #texte_coeureau h2{
@@ -479,15 +486,16 @@ section p{
 }
 
 #texte_coeureau p{
-    margin-top: -10px;
+    margin-top: -8px;
     padding-left: 35px;
     text-align: left;
 }
 
 #coeur_eau img{ 
     height: 100px;
-    width: 125px;
+    width: 90px;
     border-radius: 10px 0px 0px 10px;
+    object-fit: cover;
 }
 
 #tout_bleu{
@@ -498,16 +506,16 @@ section p{
     margin-top: 25px;
     margin-right: 20px;
     margin-left: 20px;
-    padding-bottom: 3px;
+    height: 100px;
 }
 
 #image_toutbleu{
-    text-align: left; 
+    text-align: left;
 }
 
 #texte_toutbleu{
-    margin-top: -85px;
-    padding-left: 100px;
+    margin-top: -100px;
+    padding-left: 70px;
 }
 
 #texte_toutbleu h2{
@@ -516,21 +524,22 @@ section p{
 }
 
 #texte_toutbleu p{
-    margin-top: -10px;
+    margin-top: -8px;
     padding-left: 35px;
     text-align: left;
 }
 
 #tout_bleu img{ 
     height: 100px;
-    width: 125px;
+    width: 90px;
     border-radius: 10px 0px 0px 10px;
+    object-fit: cover;
 }
 
 #etoiles_populaires{
     color: #0065fc;
     font-size: 0.5em;
-    padding-bottom: 10px;
+    padding-top: 25px;
     text-align: left;
     padding-left: 35px;
 }
@@ -564,6 +573,7 @@ section p{
     border-radius: 7px 7px 0px 0px;
     width: 300px;
     height: 350px;
+    object-fit: cover;
 }
 
 #fort_pomègues{
@@ -578,7 +588,7 @@ section p{
     border-radius: 7px 7px 0px 0px;
     width: 270px;
     height: 150px;
-    clip: rect(0,100px,50px,0);
+    object-fit: cover;
 }
 
 #iles_frioul{
@@ -593,6 +603,7 @@ section p{
     border-radius: 7px 7px 0px 0px;
     width: 270px;
     height: 150px;
+    object-fit: cover;
 }
 
 #calanques{
@@ -605,6 +616,7 @@ section p{
     border-radius: 7px 7px 0px 0px;
     width: 300px;
     height: 350px;
+    object-fit: cover;
 }
 
 #dame_garde{
@@ -619,6 +631,7 @@ section p{
     border-radius: 7px 7px 0px 0px;
     width: 270px;
     height: 150px;
+    object-fit: cover;
 }
 
 #longchamp{
@@ -633,6 +646,7 @@ section p{
     border-radius: 7px 7px 0px 0px;
     width: 270px;
     height: 150px;
+    object-fit: cover;
 }
 
 /* Footer */
