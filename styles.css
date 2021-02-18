@@ -22,57 +22,30 @@ h1{
     font-size: 1.2em;
 }
 
+h3{
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+h4{
+    margin: 5 5 5 50px;
+    font-size: 1.3em;
+    text-align: left;
+    padding-left: 33px;
+}
+
+h5{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+
 p{
-    font-size: 0.75em;
-}
-
-@media all and (max-width: 1024px){
-    #bloc_page{
-        width: auto;
-    }
-}
-
-@media all and (max-width: 1024px){
-    nav{
-        width: auto;
-        text-align: left;
-    }
-    nav ul{
-        flex-direction: row;
-    }
-    nav li{
-        padding-left: 4px;
-    }
-    nav a{
-        font-size: 0.8em;
-    }
-    nav a:hover{
-        border-bottom: 0;
-    }
-}
-
-@media all and (max-width: 1024px){
-    section{
-        flex-direction: row;
-    }
-    article, aside{
-        width: auto;
-        height: auto;
-        margin-bottom: 15px;
-        flex-direction: row;
-        float: none;
-    }
-    #banniere, #filtres, #info{
-        width: auto;
-        height: auto;
-        flex-direction: row;
-    }
-    #hebergements img{
-        width: auto;
-        height: auto;
-        float: left;
-        margin-left: 15px;
-    }
+    font-size: 0.85em;
 }
 
 /* Header */
@@ -168,13 +141,13 @@ nav a:hover{
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
     display: flex;
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
     background-color: #deebff;
     color: #0065fc;
-    border-radius: 43%;
-    height: 20px;
-    width: 23px;
-    padding: 2px 2px 2px 2px;
+    border-radius: 45%;
+    height: 18px;
+    width: 22px;
+    padding: 4px 2px 2px 2px;
 }
 
 #filtres_logo{
@@ -186,8 +159,12 @@ nav a:hover{
     margin-top: 5px;
 }
 
+#filtres p{
+    font-size: 0.75em;
+}
+
 #filtres_logo:hover{
-    transform: scale(1.5);
+    transform: scale(1.1);
     cursor: pointer;
     transition: 0.3s;
 }
@@ -246,37 +223,27 @@ nav a:hover{
 
 section{
     font-family: 'Raleway', 'sans-serif';
-    display: flex;
-    margin-bottom: 15px;
-}
-
-aside{
     display: flexbox;
-    flex: 1.2;
-    position: relative;
-    text-align: center;
-    background-color: #f2f2f2;
-    border-radius: 30px 30px;
-    padding-top: 10px;
-    padding-left: 25px;
-    margin-left: 20px;
-    margin-bottom: 50px;
-    width: 30%; 
+    margin-bottom: 25px;
 }
 
-aside a{
+section a{
     text-decoration: none;
     color: black;
 }
 
-section h2, aside h2{
+#hebergements_populaires{
+    display: flex;
+}
+
+section h2{
     font-size: 0.8em;
     padding-left: 10px;
     margin-top: 5px;
 }
 
-article p, aside p{
-    font-size: 0.6em;
+section p{
+    font-size: 0.70em;
     padding-left: 10px;
 }
 
@@ -287,14 +254,13 @@ article p, aside p{
     text-align: center;
     background-color: #f2f2f2;
     border-radius: 30px 30px;
-    margin-bottom: 50px;
-    box-sizing: 300px; 
-    width: 75%;
+    margin-bottom: 25px;
+    width: 70%;
 }
 
 #hebergements h1{
     text-align: left;
-    padding-left: 35px;
+    padding-left: 15px;
     padding-top: 10px;
 }
 
@@ -308,7 +274,7 @@ article p, aside p{
     justify-content: space-around;
     text-align: left;
     flex-direction: row;
-    margin-left: -25px;
+    margin-left: px;
 }
 
 #etoiles_hebergements{
@@ -316,6 +282,7 @@ article p, aside p{
     font-size: 0.5em;
     padding-left: 10px;
     padding-bottom: 10px;
+    margin-top: -8px;
 }
 
 #hebergements3{
@@ -330,9 +297,13 @@ article p, aside p{
 }
 
 #cannebière img{
-    height: 80px;
-    width: 200px;
+    height: 100px;
+    width: 225px;
     border-radius: 10px 10px 0px 0px;
+}
+
+#cannebière p{
+    margin-top: -10px;
 }
 
 #hotel_port{
@@ -343,9 +314,13 @@ article p, aside p{
 }
 
 #hotel_port img{
-    height: 80px;
-    width: 200px;
+    height: 100px;
+    width: 225px;
     border-radius: 10px 10px 0px 0px;
+}
+
+#hotel_port p{
+    margin-top: -10px;
 }
 
 #mouettes{
@@ -356,9 +331,13 @@ article p, aside p{
 }
 
 #mouettes img{
-    height: 80px;
-    width: 200px;
+    height: 100px;
+    width: 225px;
     border-radius: 10px 10px 0px 0px;
+}
+
+#mouettes p{
+    margin-top: -10px;
 }
 
 #hotel_mer{
@@ -370,9 +349,13 @@ article p, aside p{
 }
 
 #hotel_mer img{
-    height: 80px;
-    width: 200px;
+    height: 100px;
+    width: 225px;
     border-radius: 10px 10px 0px 0px;
+}
+
+#hotel_mer p{
+    margin-top: -10px;
 }
 
 #panier{
@@ -384,9 +367,13 @@ article p, aside p{
 }
 
 #panier img{
-    height: 80px;
-    width: 200px;
+    height: 100px;
+    width: 225px;
     border-radius: 10px 10px 0px 0px;
+}
+
+#texte_panier p{
+    margin-top: -10px;
 }
 
 #amina{
@@ -398,25 +385,35 @@ article p, aside p{
 }
 
 #amina img{
-    height: 80px;
-    width: 200px;
+    height: 100px;
+    width: 225px;
     border-radius: 10px 10px 0px 0px;
+}
+
+#amina p{
+    margin-top: -10px;
 }
 
 #afficher_plus{
     text-align: left;
-    padding-left: 35px;
+    padding-left: 33px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 #populaires{
-    display: flex;
+    display: flexbox;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 30px 30px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    width: 110%;
+    height: 100%;
 }
 
 .fa-chart-line{
-    padding-top: 23px;
-    padding-left: 50px;
+    padding-left: 300px;
 }
 
 #soleil{
@@ -424,13 +421,14 @@ article p, aside p{
     border-style: solid;
     border-color: white;
     border-radius: 10px 10px 10px 10px;
-    margin-top: -15px;
+    margin-top: 10px;
     margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 3px;
 }
 
 #image_soleil{
-    text-align: left;
-    margin-bottom: 10px;  
+    text-align: left;  
 }
 
 #texte_soleil{
@@ -440,16 +438,18 @@ article p, aside p{
 
 #texte_soleil h2{
     text-align: left;
+    padding-left: 35px;
 }
 
 #texte_soleil p{
     margin-top: -10px;
+    padding-left: 35px;
     text-align: left;
 }
 
 #soleil img{ 
-    height: 80px;
-    width: 100px;
+    height: 100px;
+    width: 125px;
     border-radius: 10px 0px 0px 10px;
 }
 
@@ -458,13 +458,14 @@ article p, aside p{
     border-style: solid;
     border-color: white;
     border-radius: 10px 10px 10px 10px;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 3px;
 }
 
 #image_coeureau{
     text-align: left;
-    margin-bottom: 10px;  
 }
 
 #texte_coeureau{
@@ -474,16 +475,18 @@ article p, aside p{
 
 #texte_coeureau h2{
     text-align: left;
+    padding-left: 35px;
 }
 
 #texte_coeureau p{
     margin-top: -10px;
+    padding-left: 35px;
     text-align: left;
 }
 
 #coeur_eau img{ 
-    height: 80px;
-    width: 100px;
+    height: 100px;
+    width: 125px;
     border-radius: 10px 0px 0px 10px;
 }
 
@@ -492,13 +495,14 @@ article p, aside p{
     border-style: solid;
     border-color: white;
     border-radius: 10px 10px 10px 10px;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 3px;
 }
 
 #image_toutbleu{
-    text-align: left;
-    margin-bottom: 10px;  
+    text-align: left; 
 }
 
 #texte_toutbleu{
@@ -508,26 +512,27 @@ article p, aside p{
 
 #texte_toutbleu h2{
     text-align: left;
+    padding-left: 35px;
 }
 
 #texte_toutbleu p{
     margin-top: -10px;
+    padding-left: 35px;
     text-align: left;
 }
 
 #tout_bleu img{ 
-    height: 80px;
-    width: 100px;
+    height: 100px;
+    width: 125px;
     border-radius: 10px 0px 0px 10px;
 }
 
 #etoiles_populaires{
     color: #0065fc;
     font-size: 0.5em;
-    padding-bottom: 0px;
+    padding-bottom: 10px;
     text-align: left;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 35px;
 }
 
 /* Activités */
@@ -642,10 +647,13 @@ footer ul, footer h2{
     font-size: 1.1em;
 }
 
-footer p{
+footer a{
+    display: flex;
+    color: black;
+    text-decoration: none;
     text-align: left;
     font-size: 0.9em;
-    margin: 1 1 1 10px;
+    margin: 0px 0px 8px 0px;
 }
 
 #a_propos{
