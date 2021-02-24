@@ -19,14 +19,14 @@ body{
 
 h1{
     margin: 5 5 5 50px;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 h3{
     margin: auto;
     padding-top: 30px;
     padding-left: 20px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: left;
 }
 
@@ -39,13 +39,12 @@ h4{
 
 h5{
     margin-bottom: 20px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-align: left;
 }
 
-
 p{
-    font-size: 0.85em;
+    font-size: 1em;
 }
 
 /* Header */
@@ -68,8 +67,8 @@ header{
 }
 
 #logo img{
-    width: 80px;
-    height: 40px;
+    width: 100px;
+    height: 60px;
 }
 
 /* Navigation */
@@ -89,7 +88,7 @@ nav li{
 
 nav a{
     color: black;
-    font-size: 0.8em;
+    font-size: 1em;
     padding-top: 20px;
     text-decoration: none;
 }
@@ -129,17 +128,18 @@ nav a:hover{
     border-style: none;
     color: white;
     cursor: pointer;
-    font-size: 0.8em;
+    font-size: 1em;
     height: 35px;
-    width: 100px;    
+    width: 120px;    
     border-radius: 0px 10px 10px 0px;
+    padding-bottom: 3px;
 }
 
 #filtres{
     display: flex;
-    padding: 5px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
     margin: 2px 2px 2px 2px;
-    font-size: 0.7;
+    font-size: 1em;
 }
 
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog{
@@ -574,18 +574,16 @@ section p{
 #activites2{
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 #vieux_port{
     text-align: justify;
-    width: 280px;
-    height: 380px;
 }
 
 #vieux_port img{
     border-radius: 7px 7px 0px 0px;
-    width: 250px;
+    width: 280px;
     height: 340px;
     object-fit: cover;
 }
@@ -593,7 +591,7 @@ section p{
 #texte_vieuxport{
     border: 1px solid #f2f2f2;
     border-radius: 0px 0px 10px 10px;
-    width: 248.5px;
+    width: 280px;
     height: 30px;
     margin-top: -5px;
     padding-top: 5px;
@@ -602,6 +600,7 @@ section p{
 
 #fort_pomègues{
     text-align: justify;
+    margin-left: 20px;
 }
 
 #fort_pomègues img{
@@ -624,6 +623,7 @@ section p{
 #iles_frioul{
     text-align: justify;
     margin-top: 25px;
+    margin-left: 20px;
 }
 
 #iles_frioul img{
@@ -648,7 +648,7 @@ section p{
 
 #calanques img{    
     border-radius: 7px 7px 0px 0px;
-    width: 250px;
+    width: 280px;
     height: 340px;
     object-fit: cover;
 }
@@ -656,7 +656,7 @@ section p{
 #texte_calanques{       
     border: 1px solid #f2f2f2;
     border-radius: 0px 0px 10px 10px;
-    width: 248.5px;
+    width: 280px;
     height: 30px;
     margin-top: -5px;
     padding-top: 5px;

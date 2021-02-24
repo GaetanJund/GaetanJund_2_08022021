@@ -4,25 +4,29 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" media="screen and (min-width: 375px) and (max-width: 667px)" href="phone.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1024px)" href="tablette.css">
     <link rel="icon" type="images/png" sizes="16x16" href="images/logo/Reservia@3x.png">
     <script src="https://kit.fontawesome.com/0583f76495.js" crossorigin="anonymous"></script>
     <title>Reservia</title>
 </head>
 
 <body>
+    
+<body>
     <div id="bloc_page">
         <header>
             <div id="Titre">
                 <div id="logo">
-                    <img src="images/logo/Reservia@3x.png">
+                    <img src="images/logo/Reservia.svg">
                 </div>
             </div>
             
             <nav>
                 <ul>
-                    <li><a href="#hebergements">Hébergements</a></li>
-                    <li><a href="#activites">Activités</a></li>
-                    <li><a href="#"><strong style="color: #0065fc;">S'inscrire</strong></a></li>
+                    <li><a href="#hebergements" id="nav1">Hébergements</a></li>
+                    <li><a href="#activites" id="nav2">Activités</a></li>
+                    <li><a href="#"><strong style="color: #0065fc;" id="nav3">S'inscrire</strong></a></li>
                 </ul>
             </nav>
         </header>
@@ -35,7 +39,7 @@
         </div>
         <form>
             <div id="recherche">
-                <i class="fas fa-map-marker-alt"></i><input type="search" id="marecherche" name="q"><button id="bouton"><strong>Rechercher</strong></button>
+                <i class="fas fa-map-marker-alt"></i><input type="search" id="marecherche" name="q" placeholder="Marseille, France"><button id="bouton"><strong>Rechercher</strong></button>
             </div>
         </form>    
     
@@ -64,7 +68,7 @@
         <section id="hebergements">
             <strong><h4>Hébergements à Marseille</h4></strong>
             <section id="hebergements1">
-                <div id="cannebière">
+                <article id="cannebière">
                     <a href="#">
                     <div id="image_cannebière">
                     <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
@@ -75,8 +79,8 @@
                             <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star" style="color: #f2f2f2;"></i>
                         </div>
                     </a>
-                </div>
-                <div id="hotel_port">
+                </article>
+                <article id="hotel_port">
                     <a href="#">
                     <div id="image_hotelport">
                     <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
@@ -89,8 +93,8 @@
                         </div>
                     </div>
                     </a>
-                </div>
-                <div id="mouettes">
+                </article>
+                <article id="mouettes">
                     <a href="#">
                     <div id="image_mouettes">
                     <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg">
@@ -103,10 +107,10 @@
                         </div>
                     </div>
                     </a>
-                </div>
+                </article>
             </section>
             <section id="hebergements2">
-                <div id="hotel_mer">
+                <article id="hotel_mer">
                     <a href="#">
                     <div id="images_hotelmer">
                     <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
@@ -119,8 +123,8 @@
                         </div>
                     </div>
                     </a>
-                </div>
-                <div id="panier">
+                </article>
+                <article id="panier">
                     <a href="#">
                     <div id="image_panier">
                     <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
@@ -133,8 +137,8 @@
                         </div>
                     </div>
                     </a>
-                </div>
-                <div id="amina">
+                </article>
+                <article id="amina">
                     <a href="#">
                     <div id="image_amina">
                     <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
@@ -147,19 +151,19 @@
                         </div>
                     </div>
                     </a>
-                </div>
+                </article>
             </section>
             <h2 id="afficher_plus"><strong>Afficher plus</strong></h2>
         </section>
     
-        <section>
+        <section id="phone_populaires">
             <section id="populaires">
             <h3><strong>Les plus populaires</strong></h3>
             <div id="populaires_logo">
                 <i class="fas fa-chart-line"></i>
             </div>
             <section id="hebergements3">
-                <div id="soleil">
+                <article id="soleil">
                     <a href="#">
                     <div id="image_soleil">
                     <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
@@ -172,8 +176,8 @@
                         </div>
                     </div>
                     </a>
-                </div>
-                <div id="coeur_eau">
+                </article>
+                <article id="coeur_eau">
                     <a href="#">
                     <div id="image_coeureau">
                     <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg">
@@ -186,8 +190,8 @@
                         </div>
                     </div>
                     </a>
-                </div>
-                <div id="tout_bleu">
+                </article>
+                <article id="tout_bleu">
                     <a href="#">
                     <div id="image_toutbleu">
                     <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
@@ -200,7 +204,7 @@
                         </div>
                     </div>
                     </a>
-                </div>
+                </article>
             </section>
             </section>
         </section>
@@ -210,7 +214,7 @@
     <h5><strong>Activités à Marseille</strong></h5>
     <section>
        <section id="activites">
-            <div id="activites1">
+            <article id="activites1">
                 <div id="vieux_port">
                     <div id="image_vieuxport">
                     <img src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
@@ -219,8 +223,8 @@
                     <h2><strong>Vieux Port</strong></h2>
                     </div>
                 </div>
-            </div>
-            <div id="activites2">
+            </article>
+            <article id="activites2">
                 <div id="fort_pomègues">
                     <div id="image_fortpomègues">
                     <img src="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
@@ -237,8 +241,8 @@
                     <h2><strong>Îles du Frioul</strong></h2>
                     </div>
                 </div>
-            </div>
-            <div id="activites1">
+            </article>
+            <article id="activites1">
                 <div id="calanques">
                     <div id="images_calanques">
                     <img src="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
@@ -247,8 +251,8 @@
                     <h2><strong>Parc National des Calanques</strong></h2>
                     </div>
                 </div>
-            </div>
-            <div id="activites2">
+            </article>
+            <article id="activites2">
                 <div id="dame_garde">
                     <div id="image_damegarde">
                     <img src="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg">
@@ -265,7 +269,7 @@
                     <h2><strong>Parc Longchamp</strong></h2>
                     </div>
                 </div>
-            </div>
+            </article>
         </section>
     </section>
     </section>
@@ -273,19 +277,19 @@
     <footer>
         <div id="a_propos">
             <h2><strong>A propos</strong></h2>
-            <a href="#">Fonctionnement du site</a>
-            <a href="#">Conditions générales de vente</a>
-            <a href="#">Données et confidentialité</a>
+            <a href="#" style="white-space: nowrap;">Fonctionnement du site</a>
+            <a href="#" style="white-space: nowrap;">Conditions générales de vente</a>
+            <a href="#" style="white-space: nowrap;">Données et confidentialité</a>
         </div>
         <div id="hébergements">
             <h2><strong>Nos hébergements</strong></h2>
-            <a href="#">Charte de qualité</a>
-            <a href="#">Soumettre votre hôtel</a>
+            <a href="#" style="white-space: nowrap;">Charte de qualité</a>
+            <a href="#" style="white-space: nowrap;">Soumettre votre hôtel</a>
         </div>
         <div id="assistance">
             <h2><strong>Assistance</strong></h2>
-            <a href="#">Centre d'aide</a>
-            <a href="#">Nous contacter</a>
+            <a href="#" style="white-space: nowrap;">Centre d'aide</a>
+            <a href="#" style="white-space: nowrap;">Nous contacter</a>
         </div>
     </footer>
 

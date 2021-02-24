@@ -1,0 +1,109 @@
+header{
+    flex-direction: column;
+}
+#bloc_page a:hover{
+    color: #0065fc;
+    border-bottom: 1.5px solid #0065fc;
+    border-top: none;
+    padding-bottom: 10px;
+}
+#logo img{
+    padding-right: 260px;
+}
+nav{
+    flex-direction: column-reverse;
+}
+#banniere h1{
+    padding-bottom: 30px;
+}
+#filtres{
+    flex-direction: column;
+}
+#hebergements_populaires{
+    flex-direction: column-reverse;
+}
+#phone_populaires{
+    margin-left: -25px;
+    margin-right: -8px;
+}
+#populaires{
+    width: auto;
+    padding-bottom: 5px;
+    border-radius: 0px;
+}
+#populaires_logo{
+    padding-left: 70px;
+}
+h4{
+    margin-top: -10px;
+    padding-left: 0px;
+}
+#hebergements{
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    background-color: white;
+}
+#hebergements1{
+    width: auto;
+    flex-direction: column;
+}
+#hebergements2{
+    width: auto;
+    flex-direction: column;
+    margin-top: -40px;
+}
+article{
+    width: auto;
+}
+#cannebière, #hotel_port, #mouettes, #hotel_mer, #panier, #amina{
+    width: auto;
+    border: 1px solid #f2f2f2;
+    margin-bottom: 8px;
+}
+#cannebière img, #hotel_port img, #mouettes img, #hotel_mer img, #panier img, #amina img{
+    width: 351px;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+#panier, #amina{
+    margin-top: 0px;
+}
+#afficher_plus{
+    padding-left: 0px;
+    margin-top: -15px;
+}
+h5{
+    margin-top: -40px;
+}
+#activites{
+    flex-direction: column;
+}
+#vieux_port, #fort_pomègues, #iles_frioul, #calanques, #dame_garde, #longchamp{
+    width: auto;
+    padding-left: 0px;
+}
+#vieux_port img, #fort_pomègues img, #iles_frioul img, #calanques img, #dame_garde img, #longchamp img{
+    width: 359px;
+    height: 120px;
+}
+#fort_pomègues, #iles_frioul, #calanques, #dame_garde, #longchamp{
+    margin-top: 10px;
+}
+#texte_vieuxport, #texte_calanques{
+    width: auto;
+}
+#texte_fortpomègues, #texte_ilesfrioul, #texte_damegarde, #texte_longchamp{
+    width: 358px;
+}
+#fort_pomègues, #iles_frioul{
+    margin-left: 0px;
+}
+footer{
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+footer a{
+    flex-wrap: wrap;
+    text-align: left;
+}

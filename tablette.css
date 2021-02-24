@@ -1,0 +1,52 @@
+#hebergements_populaires{
+    flex-direction: column-reverse;
+}
+#phone_populaires{
+    margin-left: -25px;
+    margin-right: -8px;
+}
+#populaires{
+    width: 500px;
+    padding-bottom: 5px;
+}
+#populaires_logo{
+    padding-left: 200px;
+}
+h4{
+    padding-left: 25px;
+}
+#hebergements{
+    width: auto;
+    height: auto;
+}
+#hebergements1{
+    flex-direction: row;
+}
+#hebergements2{
+    flex-direction: row;
+    margin-top: -20px;
+}
+#activites{
+    justify-content: space-between;
+}
+#vieux_port img, #calanques img{
+    width: 150px;
+    height: 250px;
+}
+#fort_pomègues img, #iles_frioul img{
+    width: 180px;
+    height: 93px;
+}
+#dame_garde img, #longchamp img{
+    width: 180px;
+    height: 90px;
+}
+#texte_vieuxport, #texte_calanques{
+    width: 149px;
+}
+#texte_fortpomègues, #texte_ilesfrioul, #texte_damegarde, #texte_longchamp{
+    width: 179px;
+}
+footer{
+    justify-content: space-evenly;
+}
