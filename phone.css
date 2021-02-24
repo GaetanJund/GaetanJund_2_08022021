@@ -10,14 +10,41 @@ header{
 #logo img{
     padding-right: 260px;
 }
-nav{
+ul{
+    border-bottom: 1.5px solid #f2f2f2;
+    padding-bottom: 10px;
+}
+li{
     flex-direction: column-reverse;
+}
+#nav3{
+    margin-top: -50px;
 }
 #banniere h1{
     padding-bottom: 30px;
 }
 #filtres{
     flex-direction: column;
+}
+#filtres_logo1{
+    width: 120px;
+    margin-left: 0px;
+}
+#filtres_logo2{
+    width: 100px;
+    margin-top: -28px;
+    margin-left: 130px;
+}
+#filtres_logo3{
+    width: 120px;
+    margin-left: 0px;
+}
+#filtres_logo4{
+    width: 160px;
+    margin-left: 0px;
+}
+#info{
+    padding-top: 20px;
 }
 #hebergements_populaires{
     flex-direction: column-reverse;
