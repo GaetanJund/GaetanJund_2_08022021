@@ -17,30 +17,41 @@ ul{
 li{
     flex-direction: column-reverse;
 }
+#nav1, #nav2{
+    margin-left: 50px;
+    margin-right: 0px;
+}
 #nav3{
     margin-top: -50px;
 }
-#banniere h1{
-    padding-bottom: 30px;
+#bouton{
+    width: 40px;
+    padding-left: 20px;
+}
+span{
+    display: none;
+}
+.fa-search{
+    visibility: visible;
 }
 #filtres{
     flex-direction: column;
 }
 #filtres_logo1{
-    width: 120px;
+    width: 145px;
     margin-left: 0px;
 }
 #filtres_logo2{
-    width: 100px;
-    margin-top: -28px;
-    margin-left: 130px;
+    width: 110px;
+    margin-top: -40px;
+    margin-left: 160px;
 }
 #filtres_logo3{
-    width: 120px;
+    width: 145px;
     margin-left: 0px;
 }
 #filtres_logo4{
-    width: 160px;
+    width: 190px;
     margin-left: 0px;
 }
 #info{
