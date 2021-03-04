@@ -11,7 +11,7 @@ h4{
 #cannebière img, #hotel_port img, #mouettes img, #hotel_mer img, #panier img, #amina img{
     width: 130px;
 }
-#phone-populaires{
+.phone_populaires{
     width: auto;
 }
 #populaires{
@@ -29,10 +29,10 @@ h4{
 #coeur_eau img{
     margin-bottom: -12px;
 }
-#etoiles_populaires{
+.etoiles_populaires{
     margin-top: -25px;
 }
-#activites{
+.activites{
     justify-content: space-between;
 }
 #vieux_port img, #calanques img{

@@ -60,7 +60,7 @@ span{
 #hebergements_populaires{
     flex-direction: column-reverse;
 }
-#phone_populaires{
+.phone_populaires{
     margin-left: -25px;
     margin-right: -8px;
 }
@@ -82,11 +82,11 @@ h4{
     flex-direction: column;
     background-color: white;
 }
-#hebergements1{
+.hebergements1{
     width: auto;
     flex-direction: column;
 }
-#hebergements2{
+.hebergements2{
     width: auto;
     flex-direction: column;
     margin-top: -40px;
@@ -114,7 +114,7 @@ article{
 h5{
     margin-top: -40px;
 }
-#activites{
+.activites{
     flex-direction: column;
 }
 #vieux_port, #fort_pomègues, #iles_frioul, #calanques, #dame_garde, #longchamp{
