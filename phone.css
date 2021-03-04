@@ -104,12 +104,14 @@ article{
     padding-left: 3px;
     padding-top: 3px;
 }
+#hotel_mer{
+    margin-top: 40px;
+}
 #panier, #amina{
     margin-top: 0px;
 }
 #afficher_plus{
     padding-left: 0px;
-    margin-top: -15px;
 }
 h5{
     margin-top: -40px;
