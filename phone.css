@@ -57,7 +57,7 @@ span{
 #info{
     padding-top: 20px;
 }
-#hebergements_populaires{
+.hebergements_populaires{
     flex-direction: column-reverse;
 }
 .phone_populaires{
