@@ -40,7 +40,7 @@ h3{
 
 h4{
     font-family: 'Raleway-Bold';
-    margin: 5 5 5 50px;
+    margin: 5 5 5 50;
     font-size: 1.3em;
     text-align: left;
     padding-left: 33px;
@@ -251,7 +251,7 @@ nav a:hover{
 
 section{
     font-family: 'Raleway', 'sans-serif';
-    display: flexbox;
+    display: block;
     margin-bottom: 25px;
 }
 
@@ -279,7 +279,7 @@ section p{
 /* Hébergements à Marseille */
 
 #hebergements{
-    display: flexbox;
+    display: block;
     text-align: center;
     background-color: #f2f2f2;
     border-radius: 30px 30px;
@@ -444,7 +444,7 @@ section p{
 }
 
 #populaires{
-    display: flexbox;
+    display: block;
     text-align: center;
     background-color: #f2f2f2;
     border-radius: 30px 30px;
@@ -596,7 +596,7 @@ section p{
 
 #activites_link{
     font-family: 'Raleway', 'sans-serif';
-    display: flexbox;
+    display: block;
     margin-bottom: 25px;
 }
 
@@ -624,7 +624,7 @@ section p{
 }
 
 #activites1, #activites3{
-    display: flexbox;
+    display: block;
 }
 
 #activites2, #activites4{
