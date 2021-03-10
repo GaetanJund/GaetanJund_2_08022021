@@ -62,18 +62,10 @@ p{
 header{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-}
-
-#Titre{
-    display: flex;
-    flex-direction: column;
 }
 
 #logo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    align-content: flex-start;
 }
 
 #logo img{
@@ -98,7 +90,7 @@ nav li{
 
 nav a{
     color: black;
-    font-size: 01em;
+    font-size: 1em;
     padding-top: 20px;
     text-decoration: none;
 }
@@ -285,6 +277,7 @@ section p{
     border-radius: 30px 30px;
     margin-bottom: 25px;
     width: 70%;
+    height: 100%;
 }
 
 #hebergements h1{
@@ -324,11 +317,12 @@ section p{
     border-color: white;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 1px 1px 10px hsl(0, 2%, 74%);
+    width: 250px;
 }
 
 #cannebière img{
     height: 100px;
-    width: 225px;
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
 }
@@ -343,11 +337,12 @@ section p{
     border-color: white;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 1px 1px 10px hsl(0, 2%, 74%);
+    width: 250px;
 }
 
 #hotel_port img{
     height: 100px;
-    width: 225px;
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
 }
@@ -362,11 +357,12 @@ section p{
     border-color: white;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 1px 1px 10px hsl(0, 2%, 74%);
+    width: 250px;
 }
 
 #mouettes img{
     height: 100px;
-    width: 225px;
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
 }
@@ -382,11 +378,12 @@ section p{
     border-radius: 10px 10px 10px 10px;
     margin-top: 15px;
     box-shadow: 1px 1px 10px hsl(0, 2%, 74%);
+    width: 250px;
 }
 
 #hotel_mer img{
     height: 100px;
-    width: 225px;
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
 }
@@ -402,11 +399,12 @@ section p{
     border-radius: 10px 10px 10px 10px;
     margin-top: 15px;
     box-shadow: 1px 1px 10px hsl(0, 2%, 74%);
+    width: 250px;
 }
 
 #panier img{
     height: 100px;
-    width: 225px;
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
 }
@@ -422,11 +420,12 @@ section p{
     border-radius: 10px 10px 10px 10px;
     margin-top: 15px;
     box-shadow: 1px 1px 10px hsl(0, 2%, 74%);
+    width: 250px;
 }
 
 #amina img{
     height: 100px;
-    width: 225px;
+    width: 100%;
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
 }

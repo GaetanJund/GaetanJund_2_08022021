@@ -1,57 +1,34 @@
+body{
+    width: 100%;
+}
 h4{
     padding-left: 25px;
 }
-#hebergements{
-    width: 500px;
-    height: auto;
-}
-#cannebière, #hotel_port, #mouettes, #hotel_mer, #panier, #amina{
-    width: 130px;
-}
-#cannebière img, #hotel_port img, #mouettes img, #hotel_mer img, #panier img, #amina img{
-    width: 130px;
-}
-.phone_populaires{
-    width: auto;
-}
-#populaires{
-    width: 250px;
-    padding-bottom: 5px;
-    margin-left: 50px;
-}
 #populaires_logo{
-    padding-top: 20px;
+    padding-top: 25px;
     margin-left: 70px;
 }
-#coeur_eau{
-    height: auto;
-}
-#coeur_eau img{
-    margin-bottom: -12px;
-}
-.etoiles_populaires{
-    margin-top: -25px;
-}
 .activites{
+    padding-left: 20px;
     justify-content: space-between;
 }
 #vieux_port img, #calanques img{
-    width: 150px;
+    width: 100%;
     height: 250px;
 }
 #fort_pomègues img, #iles_frioul img{
-    width: 180px;
+    width: 100%;
     height: 93px;
 }
 #dame_garde img, #longchamp img{
-    width: 180px;
+    width: 100%;
     height: 90px;
 }
 #texte_vieuxport, #texte_calanques{
-    width: 149px;
+    width: 100%;
 }
 #texte_fortpomègues, #texte_ilesfrioul, #texte_damegarde, #texte_longchamp{
-    width: 179px;
+    width: 100%;
 }
 footer{
     justify-content: space-evenly;
