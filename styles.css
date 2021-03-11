@@ -76,7 +76,7 @@ header{
 /* Navigation */
 
 nav{
-    padding-left: 50px;
+    flex-wrap: wrap;
 }
 
 nav ul{
@@ -145,6 +145,7 @@ nav a:hover{
 
 #filtres{
     display: flex;
+    flex-wrap: wrap;
     padding: 10px 0px 0px 0px;
     margin: 2px 2px 2px 2px;
     font-size: 1.2em;
@@ -777,6 +778,8 @@ section p{
 
 footer{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     background-color: #f2f2f2;
     padding: 25px 25px 25px 25px;
 }
@@ -796,13 +799,13 @@ footer a{
 }
 
 #a_propos{
-    width: 33%;
-    }
+    width: 250px;
+}
 
 #hébergements{
-    width: 33%;
+    width: 250px;
 }
 
 #assistance{
-    width: 33%;
+    width: 250px;
 }
