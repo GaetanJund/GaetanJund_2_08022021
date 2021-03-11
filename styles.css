@@ -254,6 +254,7 @@ section a{
 }
 
 .hebergements_populaires{
+    width: 100%;
     display: flex;
 }
 
@@ -618,6 +619,7 @@ section p{
 }
 
 .activites{
+    width: 100%;
     display: flex;
     flex-direction: row;
     margin-bottom: 30px;
