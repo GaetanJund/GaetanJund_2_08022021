@@ -19,6 +19,7 @@
 body{
    font-family: 'Raleway', sans-serif;
    position: absolute;
+   margin-top: 0;
 }
 
 #bloc_page{
@@ -61,12 +62,17 @@ p{
 /* Header */
 
 header{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    text-align: center;
+    grid-template-areas: "logo . navbar button";
+    grid-template-columns: 3fr 1fr auto auto;
+    max-width: 1440px;
+    margin: auto;
 }
 
 #logo{
-    align-content: flex-start;
+    text-align: left;
+    grid-area: "logo";
 }
 
 #logo img{
@@ -76,29 +82,40 @@ header{
 
 /* Navigation */
 
-nav{
-    flex-wrap: wrap;
-}
-
-nav ul{
-    list-style-type: none;
+.headernav{
     display: flex;
+    grid-area: "navbar";
+    align-items: center;
 }
 
-nav li{
-    margin-right: 40px;
-}
-
-nav a{
+#nav1, #nav2{
+    display: flex;
     color: black;
     font-size: 1em;
-    padding-top: 20px;
     text-decoration: none;
 }
 
-nav a:hover{
-    color: #0065fc;
-    border-top: 1.5px solid #0065fc;
+#nav2{
+    margin-left: 60px;
+}
+
+#nav1:hover, #nav2:hover{
+    border-top: 2px solid #0065fc;
+    border-bottom: 2px transparent solid;
+}
+
+#signup{
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: "button";
+    text-decoration: none;
+    font-size: 1em;
+    align-items: center;
+}
+
+#signup:hover{
+    border-top: 2px solid #0065fc;
+    border-bottom: 2px transparent solid;
 }
 
 /* Bannière */
