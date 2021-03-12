@@ -38,7 +38,7 @@ span{
 }
 #filtres_logo1{
     width: 145px;
-    margin-left: 0px;
+    margin-left: 5px;
 }
 #filtres_logo2{
     width: 110px;
@@ -73,7 +73,6 @@ span{
     padding-left: 70px;
 }
 h4{
-    margin-top: -10px;
     padding-left: 0px;
 }
 #hebergements{
