@@ -1,28 +1,33 @@
 body{
     width: 100%;
+    margin: auto;
 }
 header{
-    grid-template-areas: "logo . button" "navbar navbar navbar";
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "logo . button" 
+                         "navbar navbar";
 }
 #nav1:hover, #nav2:hover{
-    border-bottom: 1.5px solid #0065fc;
+    border-bottom: 2px solid #0065fc;
+    border-top: 2px transparent solid;
+}
+#signup:hover{
+    border-top: 2px transparent solid;
+    border-bottom: 2px transparent solid;
 }
 #logo{
-    justify-content: flex-start;
-}
-nav{
-    border-bottom: 1.5px solid #f2f2f2;
-    border-top: none;
-    width: 50%;    
+    order: 0;
 }
 .headernav{
     order: 2;
+    border-bottom: 2px solid #f2f2f2;
 }
 #signup{
     order: 1;
+    padding-left: 100px;
 }
 #bouton{
-    width: 40px;
+    width: 50px;
     padding-left: 20px;
 }
 span{
