@@ -62,17 +62,16 @@ p{
 /* Header */
 
 header{
-    display: grid;
+    display: flex;
+    flex-direction: row;
     text-align: center;
-    grid-template-areas: "logo . navbar button";
-    grid-template-columns: 2fr 1fr auto auto;
-    max-width: 1440px;
-    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 2000px;
 }
 
 #logo{
     text-align: left;
-    grid-area: "logo";
 }
 
 #logo img{
@@ -84,41 +83,38 @@ header{
 
 .headernav{
     display: flex;
-    grid-area: "navbar";
     align-items: center;
+}
+
+#navigation{
+    display: flex;
 }
 
 #nav1, #nav2{
     display: flex;
+    justify-content: space-around;
     color: black;
     font-size: 1em;
     padding: 1.27rem;
     text-decoration: none;
 }
 
-#nav2{
-    margin-left: 60px;
+#nav1{
+    color: #0065fc;
+    border-top: 2px solid #0065fc;
 }
 
-
-#nav1:hover, #nav2:hover{
-    border-top: 2px solid #0065fc;
-    border-bottom: 2px transparent solid;
+#nav2:hover{
+    color: #0065fc;
 }
 
 #signup{
     display: flex;
     flex-wrap: wrap;
-    grid-area: "button";
     text-decoration: none;
     font-size: 1em;
     padding: 1rem;
     align-items: center;
-}
-
-#signup:hover{
-    border-top: 2px solid #0065fc;
-    border-bottom: 2px transparent solid;
 }
 
 /* Bannière */
@@ -210,7 +206,7 @@ header{
 #filtres_box1{
     padding-left: 7px;
     margin : auto;
-    width: 100%;
+    width: 95px;
 }
 
 #filtres_box2{
