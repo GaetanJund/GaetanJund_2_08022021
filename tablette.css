@@ -1,5 +1,10 @@
 body{
     width: 100%;
+    margin-left: 0px;
+    margin-right: 00px;
+}
+#logo, #banniere, #recherche, #filtres, #info, h5{
+    padding-left: 10px;
 }
 h4{
     padding-left: 25px;
@@ -35,7 +40,7 @@ h4{
     width: 100%;
 }
 .activites{
-    width: 100%;
+    width: 98%;
 }
 #vieux_port img, #calanques img{
     width: 100%;
@@ -58,5 +63,5 @@ h4{
     padding-bottom: 20px;
 }
 footer{
-    width: 100%;
+    width: auto;
 }
