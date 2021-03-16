@@ -44,7 +44,7 @@ h4{
     margin: 30px 0px 30px 0px;
     font-size: 1.3em;
     text-align: left;
-    padding-left: 33px;
+    padding-left: 25px;
 }
 
 h5{
@@ -452,7 +452,7 @@ section p{
 #afficher_plus{
     text-align: left;
     font-size: 0.9em;
-    padding-left: 33px;
+    padding-left: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
