@@ -9,22 +9,27 @@ header{
 #logo{
     padding-left: 10px;
 }
-#nav1{
+#nav1, #nav2{
+    width: 100%;
+    border-bottom: 2px solid #f2f2f2;
+}
+#nav1:hover, #nav2:hover{
     border-top: none;
     border-bottom: 2px solid #0065fc;
-    padding-left: 50px;
 }
-#nav2{
-    border-bottom: 2px solid #f2f2f2;
-    padding-left: 40px;
-    padding-right: 70px;
+#signup:hover{
+    border-top: none;
+    border-bottom: none;
 }
 #navigation{
     flex-direction: column-reverse;
+    width: 100%;
     margin-top: -55px;
 }
 .headernav{
     width: 100%;
+    margin-right: 0;
+    justify-content: space-between;
 }
 #signup{
     padding-left: 240px;
@@ -79,9 +84,6 @@ span{
     width: 96%;
     padding-bottom: 20px;
     border-radius: 0px;
-}
-#populaires_logo{
-    padding-left: 70px;
 }
 h4{
     margin-top: 20px;
